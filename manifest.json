@@ -1,0 +1,52 @@
+{
+  "id": "./",
+  "name": "La Cesta · Lista de la compra",
+  "short_name": "La Cesta",
+  "description": "Tu lista de la compra personal con catálogo de Mercadona, categorías, fotos y compras guardadas. Funciona en el móvil y se puede instalar.",
+  "lang": "es",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#f4f7f3",
+  "theme_color": "#00753e",
+  "categories": ["shopping", "lifestyle", "food"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Mi lista",
+      "short_name": "Lista",
+      "description": "Abrir la lista de la compra",
+      "url": "./#/lista",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Catálogo Mercadona",
+      "short_name": "Catálogo",
+      "description": "Explorar productos de Mercadona",
+      "url": "./#/catalogo",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
