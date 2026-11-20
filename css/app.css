@@ -431,6 +431,7 @@ img { max-width: 100%; }
 .product-row {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
   background: var(--card);
   border: 1px solid var(--line);
@@ -461,7 +462,7 @@ img { max-width: 100%; }
 .check:active { transform: scale(0.9); }
 
 .row-main {
-  flex: 1;
+  flex: 1 1 190px;
   min-width: 0;
   display: flex;
   align-items: center;
@@ -511,6 +512,65 @@ img { max-width: 100%; }
 .row-chevron { color: #a7b6ac; flex: none; }
 .row-chevron .icon { width: 17px; height: 17px; }
 
+/* Campo de cantidad y unidad editable dentro de la lista */
+.qty-editor {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  flex: none;
+  margin-left: auto;
+  padding: 2px;
+  background: var(--card-soft);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.qty-step {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--green-800);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.14s ease, transform 0.1s ease;
+}
+.qty-step:hover { background: var(--green-100); }
+.qty-step:active { transform: scale(0.92); }
+.qty-input {
+  width: 40px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--ink);
+  font-size: 0.84rem;
+  font-weight: 650;
+  text-align: center;
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+.qty-input::-webkit-outer-spin-button,
+.qty-input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.qty-input:focus-visible,
+.unit-select:focus-visible { outline: 2px solid var(--green-500); outline-offset: 1px; }
+.unit-select {
+  height: 28px;
+  max-width: 82px;
+  padding: 0 2px;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.78rem;
+  cursor: pointer;
+}
 .is-bought { background: var(--card-soft); }
 .is-bought .row-title { text-decoration: line-through; color: var(--muted); }
 .is-bought .thumb { opacity: 0.55; }
