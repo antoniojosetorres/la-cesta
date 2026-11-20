@@ -13,6 +13,23 @@
     categorias: 'Categorías',
   };
 
+  const UNIDADES = [
+    'ud',
+    'kg',
+    'g',
+    'L',
+    'ml',
+    'paquete',
+    'bolsa',
+    'bandeja',
+    'bote',
+    'lata',
+    'botella',
+    'caja',
+    'docena',
+    'mazo',
+  ];
+
   const FALLBACK_CATEGORIES = [
     { id: 'cat-frutas', nombre: 'Fruta y verdura', emoji: '🥦', color: '#43a047', orden: 1 },
     { id: 'cat-lacteos', nombre: 'Lácteos y huevos', emoji: '🥛', color: '#fdd835', orden: 2 },
@@ -213,6 +230,9 @@
       case 'toggle-bought':
         await toggleBought(element.dataset.id);
         break;
+      case 'qty-step':
+        await stepQuantity(element);
+        break;
       case 'finalize-purchase':
         await finalizePurchase();
         break;
@@ -315,7 +335,30 @@
     }
   }
 
-  function handleChange(event) {
+  async function handleChange(event) {
+    const quantityField = event.target.closest('[data-qty-for]');
+    if (quantityField) {
+      const product = findProduct(quantityField.dataset.qtyFor);
+      if (!product) return;
+      const parsed = parseQuantity(quantityField.value);
+      if (parsed === null) {
+        quantityField.value = String(quantityOf(product));
+        return;
+      }
+      const updated = await saveQuantityUnit(product, { cantidad: parsed });
+      if (updated) quantityField.value = String(updated.cantidad);
+      return;
+    }
+
+    const unitField = event.target.closest('[data-unit-for]');
+    if (unitField) {
+      const product = findProduct(unitField.dataset.unitFor);
+      if (!product) return;
+      const unit = String(unitField.value || 'ud').trim().slice(0, 20) || 'ud';
+      await saveQuantityUnit(product, { unidad: unit });
+      return;
+    }
+
     const id = event.target.id;
     if (id === 'products-cat') {
       state.filters.products.cat = event.target.value;
@@ -609,6 +652,66 @@
     return `<span class="row-chevron" aria-hidden="true"><svg class="icon"><use href="#i-chevron"/></svg></span>`;
   }
 
+  function quantityOf(product) {
+    const value = Number(product && product.cantidad);
+    return Number.isFinite(value) ? value : 1;
+  }
+
+  function parseQuantity(raw) {
+    const value = String(raw == null ? '' : raw).trim().replace(',', '.');
+    if (!value) return 1;
+    const quantity = Number(value);
+    if (!Number.isFinite(quantity) || quantity < 0) return null;
+    return Math.round(quantity * 100) / 100;
+  }
+
+  function unitOptionsMarkup(selected) {
+    const value = String(selected || 'ud');
+    const units = UNIDADES.includes(value) ? UNIDADES : UNIDADES.concat(value);
+    return units
+      .map((unit) => `<option value="${attr(unit)}"${unit === value ? ' selected' : ''}>${esc(unit)}</option>`)
+      .join('');
+  }
+
+  function qtyEditorMarkup(product) {
+    const id = attr(product.id);
+    const name = attr(product.nombre);
+    return `
+      <div class="qty-editor" role="group" aria-label="Cantidad y unidad de ${name}">
+        <button type="button" class="qty-step" data-action="qty-step" data-id="${id}" data-step="-1" aria-label="Reducir cantidad de ${name}">−</button>
+        <input class="qty-input" type="number" inputmode="decimal" min="0" step="0.01" value="${attr(String(quantityOf(product)))}" data-qty-for="${id}" aria-label="Cantidad de ${name}">
+        <select class="unit-select" data-unit-for="${id}" aria-label="Unidad de ${name}">${unitOptionsMarkup(product.unidad)}</select>
+        <button type="button" class="qty-step" data-action="qty-step" data-id="${id}" data-step="1" aria-label="Aumentar cantidad de ${name}">+</button>
+      </div>`;
+  }
+
+  async function stepQuantity(button) {
+    const product = findProduct(button.dataset.id);
+    if (!product) return;
+    const delta = Number(button.dataset.step) || 0;
+    const next = Math.max(0, Math.round((quantityOf(product) + delta) * 100) / 100);
+    const updated = await saveQuantityUnit(product, { cantidad: next });
+    if (!updated) return;
+    const input = button.closest('.product-row') && button.closest('.product-row').querySelector('[data-qty-for]');
+    if (input) input.value = String(updated.cantidad);
+  }
+
+  async function saveQuantityUnit(product, patch) {
+    const previous = { ...product };
+    const updated = { ...product, ...patch, actualizado: new Date().toISOString() };
+    upsertProduct(updated);
+    try {
+      await DB.put('products', updated);
+      return updated;
+    } catch (error) {
+      console.error(error);
+      upsertProduct(previous);
+      toast('No se ha podido actualizar la cantidad.');
+      render();
+      return null;
+    }
+  }
+
   /* ------------------------------------------------------------------ */
   /* Vista: lista                                                       */
   /* ------------------------------------------------------------------ */
@@ -730,12 +833,13 @@
           ${thumbMarkup(product)}
           <span class="row-text">
             <span class="row-title">${esc(product.nombre)}</span>
-            <span class="row-meta">${esc(U.formatQty(product.cantidad))} ${esc(product.unidad)} · ${esc(category.emoji)} ${esc(category.nombre)}</span>
+            <span class="row-meta">${esc(category.emoji)} ${esc(category.nombre)}</span>
             ${product.comentario ? `<span class="row-comment">${esc(product.comentario)}</span>` : ''}
             <span class="row-date">${esc(productDateLabel(product))}</span>
           </span>
           ${chevronMarkup()}
         </button>
+        ${qtyEditorMarkup(product)}
       </article>`;
   }
 
@@ -1372,7 +1476,7 @@
     const form = els.productForm;
     form.reset();
     fillProductCategoryOptions(product ? product.categoriaId : '');
-    setProductUnit(product ? product.unidad : 'ud');
+    fillProductUnitOptions(product ? product.unidad : 'ud');
 
     form.elements.namedItem('nombre').value = product ? product.nombre : '';
     form.elements.namedItem('cantidad').value = product ? String(product.cantidad ?? 1) : '1';
@@ -1402,16 +1506,8 @@
     els.productCategory.value = selectedId && state.catMap.has(String(selectedId)) ? String(selectedId) : '';
   }
 
-  function setProductUnit(unit) {
-    const value = unit || 'ud';
-    const exists = Array.from(els.productUnit.options).some((option) => option.value === value);
-    if (!exists) {
-      const option = document.createElement('option');
-      option.value = value;
-      option.textContent = value;
-      els.productUnit.appendChild(option);
-    }
-    els.productUnit.value = value;
+  function fillProductUnitOptions(unit) {
+    els.productUnit.innerHTML = unitOptionsMarkup(unit);
   }
 
   function updateDateHelp(product) {
