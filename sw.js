@@ -1,7 +1,7 @@
 /* La Cesta — service worker */
 'use strict';
 
-const VERSION = 'lacesta-v1.0.1';
+const VERSION = 'lacesta-v1.0.2';
 const SHELL_CACHE = `${VERSION}-shell`;
 const IMAGE_CACHE = `${VERSION}-images`;
 const MAX_IMAGES = 320;

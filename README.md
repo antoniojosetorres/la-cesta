@@ -5,6 +5,7 @@ Lista de la compra personal, mobile-first e instalable, con catálogo de Mercado
 ## Funciones
 
 - Lista de la compra con productos pendientes y comprados.
+- Cantidad y unidad editables directamente en cada producto de la lista, sin abrir la ficha.
 - Marcar productos como comprados, finalizar la compra y deshacer.
 - CRUD de productos: nombre, categoría, foto, comentario, cantidad, unidad y fecha de la última compra.
 - CRUD de categorías con emoji y color.
@@ -73,12 +74,12 @@ php -S localhost:5173
 La app avisa de las actualizaciones del service worker. Si cambias archivos estáticos, sube la versión de caché en `sw.js`:
 
 ```js
-const VERSION = 'lacesta-v1.0.1';
+const VERSION = 'lacesta-v1.0.2';
 ```
 
 ## Uso
 
-- **Lista**: añade productos con el botón flotante, marca el círculo de un producto para comprarlo y usa **Finalizar compra** para archivar los comprados. El aviso permite deshacer.
+- **Lista**: añade productos con el botón flotante, ajusta la cantidad con los botones `−`/`+` o escribe el número, cambia la unidad en el selector de cada fila, marca el círculo de un producto para comprarlo y usa **Finalizar compra** para archivar los comprados. El aviso permite deshacer.
 - **Productos**: busca, filtra, abre la ficha, edita, cambia la foto o elimina. El botón de la esquina añade o quita el producto de la lista.
 - **Catálogo**: busca por nombre, filtra por categoría y añade un producto con el botón `+`. Si ya está en la lista, el botón se marca como **En la lista**.
 - **Categorías**: crea, edita y elimina categorías. Si eliminas una, sus productos aparecen como **Sin categoría**.
