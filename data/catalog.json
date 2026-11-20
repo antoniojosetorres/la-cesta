@@ -1,6 +1,6 @@
 {
   "fuente": "https://tienda.mercadona.es/api/",
-  "actualizado": "2026-11-19T12:18:28.847Z",
+  "actualizado": "2026-11-20T20:45:39.668Z",
   "categorias": [
     {
       "id": "mc-12",
@@ -2731,7 +2731,7 @@
       "nombre": "Refresco Coca-Cola zero azúcar zero cafeína",
       "categoriaId": "mc-18",
       "subcategoria": "Cola zero",
-      "foto": "https://prod-mercadona.imgix.net/images/d1fc468acb8aa7ed4e1a9383e2fb466d.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/b78be9ff312139f4672d4da073f32a22.jpg?fit=crop&h=300&w=300",
       "cantidad": 0.33,
       "unidad": "L",
       "envase": "Lata"
@@ -4937,6 +4937,16 @@
       "envase": "Paquete"
     },
     {
+      "id": "12996",
+      "nombre": "Snack frito Binkies sabor queso Hacendado",
+      "categoriaId": "mc-15",
+      "subcategoria": "Snacks",
+      "foto": "https://prod-mercadona.imgix.net/images/3d664c9fbf0f61f7c0c172b379ac99b0.jpg?fit=crop&h=300&w=300",
+      "cantidad": 0.08,
+      "unidad": "kg",
+      "envase": "Paquete"
+    },
+    {
       "id": "22568",
       "nombre": "Sticks de patata Hacendado",
       "categoriaId": "mc-15",
@@ -5667,12 +5677,12 @@
       "envase": "Bandeja"
     },
     {
-      "id": "21395",
-      "nombre": "Pasta fusilli 100% lentejas rojas Hacendado",
+      "id": "6106",
+      "nombre": "Pasta fusilli 100% lentejas rojas Felicia",
       "categoriaId": "mc-13",
       "subcategoria": "Macarrones, pajaritas y hélices",
-      "foto": "https://prod-mercadona.imgix.net/images/756efc25414e66ddedf7b0b403198d4c.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.4,
+      "foto": "https://prod-mercadona.imgix.net/images/b82394e08ac387522c2286fb9c234b5f.jpg?fit=crop&h=300&w=300",
+      "cantidad": 0.25,
       "unidad": "kg",
       "envase": "Paquete"
     },
@@ -5915,6 +5925,16 @@
       "cantidad": 0.1,
       "unidad": "kg",
       "envase": "Tableta"
+    },
+    {
+      "id": "18766",
+      "nombre": "Avellanas bañadas de chocolate blanco con azúcar caramelizado Hacendado",
+      "categoriaId": "mc-9",
+      "subcategoria": "Chocolatinas",
+      "foto": "https://prod-mercadona.imgix.net/images/fdbd98811403f42bad6c5cc8d996474c.jpg?fit=crop&h=300&w=300",
+      "cantidad": 0.15,
+      "unidad": "kg",
+      "envase": "Paquete"
     },
     {
       "id": "19837",
@@ -9447,6 +9467,16 @@
       "envase": "Botellín"
     },
     {
+      "id": "14989",
+      "nombre": "Cerveza negra Ambar",
+      "categoriaId": "mc-19",
+      "subcategoria": "Cerveza lata",
+      "foto": "https://prod-mercadona.imgix.net/images/90c766f8262424ede0ec978b95cd1a48.jpg?fit=crop&h=300&w=300",
+      "cantidad": 0.33,
+      "unidad": "L",
+      "envase": "Lata"
+    },
+    {
       "id": "21738",
       "nombre": "Cerveza Radler Falke 0,0% sin alcohol",
       "categoriaId": "mc-19",
@@ -9631,7 +9661,7 @@
       "nombre": "Frizzante dulce sin alcohol Piccolo Giovanni",
       "categoriaId": "mc-19",
       "subcategoria": "Vino lambrusco y espumoso",
-      "foto": "https://prod-mercadona.imgix.net/images/7d2c73e457a9aa3090df609272f5044d.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/7d2c73e457a9aa3090df609272f5044d.jpeg?fit=crop&h=300&w=300",
       "cantidad": 0.75,
       "unidad": "L",
       "envase": "Botella"
@@ -10701,7 +10731,7 @@
       "nombre": "Vino tinto tempranillo reserva Pata Negra DO Valdepeñas",
       "categoriaId": "mc-19",
       "subcategoria": "Castilla la Mancha",
-      "foto": "https://prod-mercadona.imgix.net/images/e843a458a3cad004b53c3bb35b2c73a1.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/07000a8bf4806f3c789ade9fe7ea51ef.jpg?fit=crop&h=300&w=300",
       "cantidad": 0.75,
       "unidad": "L",
       "envase": "Botella"
@@ -12061,7 +12091,7 @@
       "nombre": "Brochetas de pollo, pimiento verde y tocino de cerdo con varilla",
       "categoriaId": "mc-3",
       "subcategoria": "Pollo",
-      "foto": "https://prod-mercadona.imgix.net/images/15b2eaac006412625943b1d7a52d01de.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/15b2eaac006412625943b1d7a52d01de.jpeg?fit=crop&h=300&w=300",
       "cantidad": 0.37,
       "unidad": "kg",
       "envase": "Bandeja"
@@ -13171,7 +13201,7 @@
       "nombre": "Medio magret de pato",
       "categoriaId": "mc-3",
       "subcategoria": "Pavo y otras aves",
-      "foto": "https://prod-mercadona.imgix.net/images/79f45fcebafcf8cfd8fe07777196f0fe.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/5253c1ab65adc6f29e8671ff7125708b.jpg?fit=crop&h=300&w=300",
       "cantidad": 0.16,
       "unidad": "kg",
       "envase": "Pieza"
@@ -13913,16 +13943,6 @@
       "subcategoria": "Barritas de cereales",
       "foto": "https://prod-mercadona.imgix.net/images/c146be43e0b12a70fe1ffc2224bd8662.jpg?fit=crop&h=300&w=300",
       "cantidad": 0.12,
-      "unidad": "kg",
-      "envase": "Caja"
-    },
-    {
-      "id": "21760",
-      "nombre": "Barritas de cereales avena y cacao Hacendado",
-      "categoriaId": "mc-7",
-      "subcategoria": "Barritas de cereales",
-      "foto": "https://prod-mercadona.imgix.net/images/2302ce83917eacbddfcd6687743a0df6.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.14,
       "unidad": "kg",
       "envase": "Caja"
     },
@@ -14981,7 +15001,7 @@
       "nombre": "Cabeza de cerdo Hacendado finas lonchas",
       "categoriaId": "mc-4",
       "subcategoria": "Pavo y otros",
-      "foto": "https://prod-mercadona.imgix.net/images/6301271ead526408834d91b05e58ae68.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/e128adf79f4d6fcdb2f27c70e9a09564.jpg?fit=crop&h=300&w=300",
       "cantidad": 0.15,
       "unidad": "kg",
       "envase": "Paquete"
@@ -15051,7 +15071,7 @@
       "nombre": "Chorizo cular ibérico extra La Hacienda del ibérico",
       "categoriaId": "mc-4",
       "subcategoria": "Chorizo",
-      "foto": "https://prod-mercadona.imgix.net/images/0d34bb57bf8937b93a13f1738056ec2a.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/cccbb165cba7f7b56cfc189aa0846d6c.jpg?fit=crop&h=300&w=300",
       "cantidad": 0.5,
       "unidad": "kg",
       "envase": "Pieza"
@@ -15251,7 +15271,7 @@
       "nombre": "Galantina con pistacho y trufa Hacendado finas lonchas",
       "categoriaId": "mc-4",
       "subcategoria": "Mortadela",
-      "foto": "https://prod-mercadona.imgix.net/images/252dd9981d09640a18449bec4ef3e2d7.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/b70033fb553046fc72dc2965c82fe45a.jpg?fit=crop&h=300&w=300",
       "cantidad": 0.15,
       "unidad": "kg",
       "envase": "Paquete"
@@ -17087,6 +17107,16 @@
       "envase": "Pieza"
     },
     {
+      "id": "50483",
+      "nombre": "Queso tierno bola edam de vaca Holland Corona",
+      "categoriaId": "mc-4",
+      "subcategoria": "Queso tierno",
+      "foto": "https://prod-mercadona.imgix.net/images/c0a573a5531aa0148e69817a4fb19640.jpeg?fit=crop&h=300&w=300",
+      "cantidad": 0.46,
+      "unidad": "kg",
+      "envase": "Pieza"
+    },
+    {
       "id": "50927",
       "nombre": "Queso tierno de cabra Hacendado",
       "categoriaId": "mc-4",
@@ -17728,7 +17758,7 @@
     },
     {
       "id": "56661",
-      "nombre": "Tiras de pechuga de pollo 99% Hacendado al natural",
+      "nombre": "Tiras de pechuga de pollo 99% Hacendado",
       "categoriaId": "mc-4",
       "subcategoria": "Pavo y otros",
       "foto": "https://prod-mercadona.imgix.net/images/d14a184efcd64af70c57ea510d8e88b2.jpg?fit=crop&h=300&w=300",
@@ -17751,7 +17781,7 @@
       "nombre": "Torrezno precocinado Hacendado",
       "categoriaId": "mc-4",
       "subcategoria": "Bacón",
-      "foto": "https://prod-mercadona.imgix.net/images/5108f6b6facdbfc57ce54d4f4d9969d1.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/98b3286120b39c6f016e9ece52f6278b.jpg?fit=crop&h=300&w=300",
       "cantidad": 0.42,
       "unidad": "kg",
       "envase": "Bandeja"
@@ -18517,11 +18547,11 @@
       "envase": "Paquete"
     },
     {
-      "id": "24260",
+      "id": "24608",
       "nombre": "Gambón grande congelado",
       "categoriaId": "mc-17",
       "subcategoria": "Marisco",
-      "foto": "https://prod-mercadona.imgix.net/images/efcee978e3b8fcca344f4c0525bd7ffe.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/225168b16721f1fd9ad47f902e8d67a9.jpg?fit=crop&h=300&w=300",
       "cantidad": 2,
       "unidad": "kg",
       "envase": "Caja"
@@ -18775,6 +18805,16 @@
       "cantidad": 1,
       "unidad": "L",
       "envase": "Tarrina"
+    },
+    {
+      "id": "35955",
+      "nombre": "Helado Dochi cheesecake Hacendado con salsa de frambuesa",
+      "categoriaId": "mc-17",
+      "subcategoria": "Otros Helados",
+      "foto": "https://prod-mercadona.imgix.net/images/cd157f552887c0a38f35e59b59f01d50.jpg?fit=crop&h=300&w=300",
+      "cantidad": 0.22,
+      "unidad": "L",
+      "envase": "Caja"
     },
     {
       "id": "12821",
@@ -23487,6 +23527,16 @@
       "envase": "Paquete"
     },
     {
+      "id": "35714",
+      "nombre": "Cepillos interdentales Extrafinos cónicos Deliplus",
+      "categoriaId": "mc-20",
+      "subcategoria": "Colutorio e hilo dental",
+      "foto": "https://prod-mercadona.imgix.net/images/3aa9ffd5323e0cb5395c5ce906d59396.jpg?fit=crop&h=300&w=300",
+      "cantidad": 1,
+      "unidad": "ud",
+      "envase": "Paquete"
+    },
+    {
       "id": "35733",
       "nombre": "Cepillos interdentales Finos cónicos Deliplus",
       "categoriaId": "mc-20",
@@ -23861,7 +23911,7 @@
       "nombre": "Crema de manos flor de Japón Deliplus Hidrata & Perfuma",
       "categoriaId": "mc-20",
       "subcategoria": "Crema manos",
-      "foto": "https://prod-mercadona.imgix.net/images/3f578158936f4b1672f4912c11531e89.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/827fdc426b0e91c866f62ef5f3cf5744.jpg?fit=crop&h=300&w=300",
       "cantidad": 0.03,
       "unidad": "L",
       "envase": "Tubo"
@@ -23921,7 +23971,7 @@
       "nombre": "Crema de manos Velvet Deliplus con karité & vitamina E",
       "categoriaId": "mc-20",
       "subcategoria": "Crema manos",
-      "foto": "https://prod-mercadona.imgix.net/images/afb1c3c2645207a17deb6ee4b4c65e19.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/07397c6b3ce3c95ed3ee22bf1b15e22e.jpg?fit=crop&h=300&w=300",
       "cantidad": 0.3,
       "unidad": "L",
       "envase": "Tarro"
@@ -26537,6 +26587,16 @@
       "envase": ""
     },
     {
+      "id": "18822",
+      "nombre": "Lote facial mujer Deliplus tratamiento intensivo de jalea real y colágeno",
+      "categoriaId": "mc-20",
+      "subcategoria": "Sérum y ampollas",
+      "foto": "https://prod-mercadona.imgix.net/images/abe236e9691052c67418096c43687474.jpg?fit=crop&h=300&w=300",
+      "cantidad": 1,
+      "unidad": "ud",
+      "envase": "Caja"
+    },
+    {
       "id": "16257",
       "nombre": "Lote Flection Sports Edition 6 hojas Deliplus",
       "categoriaId": "mc-20",
@@ -27537,16 +27597,6 @@
       "envase": "Tubo"
     },
     {
-      "id": "18389",
-      "nombre": "Serum uñas & cutículas Double Action Deliplus suaviza e hidrata",
-      "categoriaId": "mc-20",
-      "subcategoria": "Cuidado de uñas y complementos",
-      "foto": "https://prod-mercadona.imgix.net/images/a285f73ad4baa966444799a79bf4ac72.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.01,
-      "unidad": "L",
-      "envase": ""
-    },
-    {
       "id": "13969",
       "nombre": "Sorbete corporal Posidonia Deliplus",
       "categoriaId": "mc-20",
@@ -28492,7 +28542,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Otras verduras y hortalizas",
       "foto": "https://prod-mercadona.imgix.net/images/2addd12060700a9447ceda61fee8ecb7.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.18,
+      "cantidad": 0.2,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -28542,7 +28592,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Plátano y uva",
       "foto": "https://prod-mercadona.imgix.net/images/69edef3541bbf3f4b7173c9d617a5698.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.18,
+      "cantidad": 0.17,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -28592,7 +28642,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Otras verduras y hortalizas",
       "foto": "https://prod-mercadona.imgix.net/images/2ef72b37fe1021e9ff4ea8f46f9204f8.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.53,
+      "cantidad": 0.54,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -28602,7 +28652,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Calabacín y pimiento",
       "foto": "https://prod-mercadona.imgix.net/images/50a267029cedf70b9f9a52c389deb4bc.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.39,
+      "cantidad": 0.36,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -28772,7 +28822,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Repollo y col",
       "foto": "https://prod-mercadona.imgix.net/images/7798d5fc27ec9df3b3336c68302e5972.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.82,
+      "cantidad": 0.8,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -28792,7 +28842,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Repollo y col",
       "foto": "https://prod-mercadona.imgix.net/images/6d23e41208a9f845dbde60697cb4d5d2.jpg?fit=crop&h=300&w=300",
-      "cantidad": 1.27,
+      "cantidad": 1.28,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29022,7 +29072,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Otras frutas",
       "foto": "https://prod-mercadona.imgix.net/images/e51fbd5638b241e5e21e7af11b8f03b7.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.47,
+      "cantidad": 0.48,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29082,7 +29132,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Otras frutas",
       "foto": "https://prod-mercadona.imgix.net/images/e12057d015e6ec4642d24bffe1009fe3.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.28,
+      "cantidad": 0.27,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29202,7 +29252,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Cítricos",
       "foto": "https://prod-mercadona.imgix.net/images/dde3a9f03e3b8abc1ebf690a29c9631d.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.19,
+      "cantidad": 0.2,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29272,7 +29322,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Fruta tropical",
       "foto": "https://prod-mercadona.imgix.net/images/05ba87e8e2d78124318a9dee667b3d07.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.54,
+      "cantidad": 0.51,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29282,7 +29332,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Manzana y pera",
       "foto": "https://prod-mercadona.imgix.net/images/12cc1ef38a5b781f364ca22e46a25ad7.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.22,
+      "cantidad": 0.21,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29312,7 +29362,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Manzana y pera",
       "foto": "https://prod-mercadona.imgix.net/images/4287bde2a6bab7877b74f79e7d989d8c.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.21,
+      "cantidad": 0.19,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29392,7 +29442,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Melón y sandía",
       "foto": "https://prod-mercadona.imgix.net/images/bd4459355f58bc265a2c6720b688e3c3.jpg?fit=crop&h=300&w=300",
-      "cantidad": 3.35,
+      "cantidad": 3.22,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29472,7 +29522,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Fruta tropical",
       "foto": "https://prod-mercadona.imgix.net/images/e01d68c0435d10972f813077441c6c4c.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.64,
+      "cantidad": 0.66,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29482,7 +29532,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Patata",
       "foto": "https://prod-mercadona.imgix.net/images/12ec1b808bbcbc2d5ad6b40d9021cf76.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.26,
+      "cantidad": 0.25,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29572,7 +29622,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Manzana y pera",
       "foto": "https://prod-mercadona.imgix.net/images/debea7dc78060cb9cab5c608e7f9eb27.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.22,
+      "cantidad": 0.2,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29592,7 +29642,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Manzana y pera",
       "foto": "https://prod-mercadona.imgix.net/images/dfb3b85109390b0bb0aab4f838c5ba89.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.23,
+      "cantidad": 0.22,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29642,7 +29692,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Calabacín y pimiento",
       "foto": "https://prod-mercadona.imgix.net/images/ace6cddb107859b9d019cdd773ffda00.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.12,
+      "cantidad": 0.11,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29692,7 +29742,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Plátano y uva",
       "foto": "https://prod-mercadona.imgix.net/images/e4a37940916985bf5ca166e266580c37.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.16,
+      "cantidad": 0.17,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29712,7 +29762,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Cítricos",
       "foto": "https://prod-mercadona.imgix.net/images/33aa4801e7e15cc82d0caa406b3fb363.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.37,
+      "cantidad": 0.36,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29842,7 +29892,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Tomate",
       "foto": "https://prod-mercadona.imgix.net/images/74f33f458b7f5fa55cdb4490730cccd8.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.17,
+      "cantidad": 0.18,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29852,7 +29902,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Tomate",
       "foto": "https://prod-mercadona.imgix.net/images/ccb2b42ba2bb6a7b692dac6101074709.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.2,
+      "cantidad": 0.22,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29882,7 +29932,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Tomate",
       "foto": "https://prod-mercadona.imgix.net/images/0a29af1acbea6e28de6911bc2253b876.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.51,
+      "cantidad": 0.4,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -29982,7 +30032,7 @@
       "categoriaId": "mc-1",
       "subcategoria": "Patata",
       "foto": "https://prod-mercadona.imgix.net/images/3c82a0206ba8e480e6b24eba31eae9d8.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.7,
+      "cantidad": 0.74,
       "unidad": "kg",
       "envase": "Pieza"
     },
@@ -30421,7 +30471,7 @@
       "nombre": "Bebida láctea con cereales crecimiento y desarrollo Puleva Max",
       "categoriaId": "mc-6",
       "subcategoria": "Leche Infantil",
-      "foto": "https://prod-mercadona.imgix.net/images/897fd3211d65935ab4f089a0f9600095.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/d6f088e4e4ac9044f48a431ded77790c.jpg?fit=crop&h=300&w=300",
       "cantidad": 6,
       "unidad": "L",
       "envase": "Pack-6"
@@ -32407,11 +32457,11 @@
       "envase": "Botella"
     },
     {
-      "id": "11664",
+      "id": "18793",
       "nombre": "Detergente ropa Frescura Bosque Verde líquido",
       "categoriaId": "mc-26",
       "subcategoria": "Detergente líquido y gel",
-      "foto": "https://prod-mercadona.imgix.net/images/c07f239cc2c76fea1f2c71b1b6a60367.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/daf5bc7421a112daf74eb192891d9012.jpg?fit=crop&h=300&w=300",
       "cantidad": 3,
       "unidad": "L",
       "envase": "Botella"
@@ -32571,7 +32621,7 @@
       "nombre": "Encendedor cocina largo Clipper recargable",
       "categoriaId": "mc-26",
       "subcategoria": "Encendedores, velas y carbón",
-      "foto": "https://prod-mercadona.imgix.net/images/5015a3c0b83dc50e0e0664e13628f8ef.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/5015a3c0b83dc50e0e0664e13628f8ef.jpeg?fit=crop&h=300&w=300",
       "cantidad": 1,
       "unidad": "ud",
       "envase": "Paquete"
@@ -35487,6 +35537,16 @@
       "envase": ""
     },
     {
+      "id": "21930",
+      "nombre": "Máscara de cejas Fixing Gel Deliplus transparente",
+      "categoriaId": "mc-22",
+      "subcategoria": "Cejas",
+      "foto": "https://prod-mercadona.imgix.net/images/8f9820cce8273766542fa0382a5b47d0.jpg?fit=crop&h=300&w=300",
+      "cantidad": 0.01,
+      "unidad": "L",
+      "envase": ""
+    },
+    {
       "id": "16368",
       "nombre": "Máscara de pestañas Blue Xtrem efecto longitud infinita Deliplus azul",
       "categoriaId": "mc-22",
@@ -36481,38 +36541,8 @@
       "nombre": "Berberecho vivo",
       "categoriaId": "mc-2",
       "subcategoria": "Marisco de concha",
-      "foto": "https://prod-mercadona.imgix.net/images/cdf7e7dd098169e6ca3503049ba121fd.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/cdf7e7dd098169e6ca3503049ba121fd.jpeg?fit=crop&h=300&w=300",
       "cantidad": 0.5,
-      "unidad": "kg",
-      "envase": "Bandeja"
-    },
-    {
-      "id": "87929",
-      "nombre": "Boquerón limpio sin cabeza",
-      "categoriaId": "mc-2",
-      "subcategoria": "Boquerón",
-      "foto": "https://prod-mercadona.imgix.net/images/6dca0254a61d406514831ee69977244a.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.3,
-      "unidad": "kg",
-      "envase": "Bandeja"
-    },
-    {
-      "id": "87930",
-      "nombre": "Boquerón limpio sin espina",
-      "categoriaId": "mc-2",
-      "subcategoria": "Boquerón",
-      "foto": "https://prod-mercadona.imgix.net/images/4234cf63d43da64ad51e16c117430e46.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.2,
-      "unidad": "kg",
-      "envase": "Bandeja"
-    },
-    {
-      "id": "26981",
-      "nombre": "Boquerón sin limpiar",
-      "categoriaId": "mc-2",
-      "subcategoria": "Boquerón",
-      "foto": "https://prod-mercadona.imgix.net/images/b97065bd6518a2d8b7f0670e9c0e2867.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.38,
       "unidad": "kg",
       "envase": "Bandeja"
     },
@@ -36861,7 +36891,7 @@
       "nombre": "Merluza del Cabo abierta en libro",
       "categoriaId": "mc-2",
       "subcategoria": "Merluza",
-      "foto": "https://prod-mercadona.imgix.net/images/ae6c1736b6127db8332ee8002f210226.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/ae6c1736b6127db8332ee8002f210226.jpeg?fit=crop&h=300&w=300",
       "cantidad": 0.65,
       "unidad": "kg",
       "envase": "Bandeja"
@@ -36911,7 +36941,7 @@
       "nombre": "Navaja viva",
       "categoriaId": "mc-2",
       "subcategoria": "Marisco de concha",
-      "foto": "https://prod-mercadona.imgix.net/images/bdb3385e91d083451ae84202b49e7dc7.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/bdb3385e91d083451ae84202b49e7dc7.jpeg?fit=crop&h=300&w=300",
       "cantidad": 0.5,
       "unidad": "kg",
       "envase": "Bandeja"
@@ -37043,36 +37073,6 @@
       "subcategoria": "Marisco",
       "foto": "https://prod-mercadona.imgix.net/images/4ca6c21639a4a29671afa6eb85b1e89f.jpeg?fit=crop&h=300&w=300",
       "cantidad": 0.4,
-      "unidad": "kg",
-      "envase": "Bandeja"
-    },
-    {
-      "id": "87995",
-      "nombre": "Sardina limpia descongelada",
-      "categoriaId": "mc-2",
-      "subcategoria": "Sardina",
-      "foto": "https://prod-mercadona.imgix.net/images/fef048d46e39db464824936a4c78f9d9.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.36,
-      "unidad": "kg",
-      "envase": "Bandeja"
-    },
-    {
-      "id": "87916",
-      "nombre": "Sardina sin limpiar",
-      "categoriaId": "mc-2",
-      "subcategoria": "Sardina",
-      "foto": "https://prod-mercadona.imgix.net/images/063abb05fe920717e8f46ab6bf71ba3e.jpg?fit=crop&h=300&w=300",
-      "cantidad": 0.4,
-      "unidad": "kg",
-      "envase": "Bandeja"
-    },
-    {
-      "id": "17611",
-      "nombre": "Sardina sin limpiar",
-      "categoriaId": "mc-2",
-      "subcategoria": "Sardina",
-      "foto": "https://prod-mercadona.imgix.net/images/3246ed9278ab46da6d09517b64d2449c.jpeg?fit=crop&h=300&w=300",
-      "cantidad": 1,
       "unidad": "kg",
       "envase": "Bandeja"
     },
@@ -37747,16 +37747,6 @@
       "envase": "Paquete"
     },
     {
-      "id": "16554",
-      "nombre": "Paté de pollo perro adulto Delikuit",
-      "categoriaId": "mc-25",
-      "subcategoria": "Alimentación húmeda",
-      "foto": "https://prod-mercadona.imgix.net/images/9f75b65c6b0f073a8f72545f451dc708.jpg?fit=crop&h=300&w=300",
-      "cantidad": 1.2,
-      "unidad": "kg",
-      "envase": "Bote"
-    },
-    {
       "id": "70733",
       "nombre": "Paté de salmón y verduras perro adulto Delikuit",
       "categoriaId": "mc-25",
@@ -37941,7 +37931,7 @@
       "nombre": "Trozos de pollo y verduras en salsa perros adultos Quartett",
       "categoriaId": "mc-25",
       "subcategoria": "Alimentación húmeda",
-      "foto": "https://prod-mercadona.imgix.net/images/1f830a7a6b4f85ab3a1ed0c7662d1d88.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/1f830a7a6b4f85ab3a1ed0c7662d1d88.jpeg?fit=crop&h=300&w=300",
       "cantidad": 0.4,
       "unidad": "kg",
       "envase": "Paquete"
@@ -38791,7 +38781,7 @@
       "nombre": "Empanadilla de espinacas",
       "categoriaId": "mc-5",
       "subcategoria": "Bollería salada",
-      "foto": "https://prod-mercadona.imgix.net/images/dbd19d0360c244ddcfe877d73702cc01.jpg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/31239a797f7f82794fa99c3c08e443e3.jpg?fit=crop&h=300&w=300",
       "cantidad": 0.12,
       "unidad": "kg",
       "envase": "Pieza"
@@ -41241,7 +41231,7 @@
       "nombre": "Ensaladilla rusa Hacendado",
       "categoriaId": "mc-16",
       "subcategoria": "Ensaladilla",
-      "foto": "https://prod-mercadona.imgix.net/images/8a73d41f9830335429b49a5a88fb4944.jpeg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/ca95ca6f5a14f91a6d6cd36c916514d9.jpg?fit=crop&h=300&w=300",
       "cantidad": 0.5,
       "unidad": "kg",
       "envase": "Tarrina"
@@ -41251,7 +41241,7 @@
       "nombre": "Ensaladilla rusa Hacendado",
       "categoriaId": "mc-16",
       "subcategoria": "Ensaladilla",
-      "foto": "https://prod-mercadona.imgix.net/images/d1be7b52299fa0ce6308071004e6097f.jpeg?fit=crop&h=300&w=300",
+      "foto": "https://prod-mercadona.imgix.net/images/753d3fae469678feffabf1e294e2e298.jpg?fit=crop&h=300&w=300",
       "cantidad": 0.25,
       "unidad": "kg",
       "envase": "Tarrina"
